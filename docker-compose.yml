@@ -3,6 +3,7 @@ version: '3.8'
 services:
   web:
     build: .
+    image: edgecrush3r/docker-wakeup-service:latest
     ports:
       - "3090:3000"
     environment:
